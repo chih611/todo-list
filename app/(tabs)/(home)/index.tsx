@@ -5,8 +5,6 @@ export default function HomeScreen() {
     return (
         <View style={styles.container}>
             <Text>Home</Text>
-            <Link href="/about">View About</Link>
-            <Link href="/notfound">Not found</Link>
             <Link
                 href={{
                     pathname: '/details/[id]',
